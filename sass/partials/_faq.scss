@@ -1,0 +1,28 @@
+.faq{
+  overflow: hidden;
+  position: relative;
+}
+
+.faq__header{
+  position: relative;
+}
+
+.faq__heading{
+  font-size: 128px;
+  color: #eeeeee;
+  font-weight: 900;
+}
+
+.faq__paragraph{
+  font-size: 32px;
+  font-weight: 300;
+  position: absolute;
+  bottom: -10px;
+  left: 30px;
+}
+
+@media (min-width: 992px){
+  .faq{
+  position: relative;
+  }
+}

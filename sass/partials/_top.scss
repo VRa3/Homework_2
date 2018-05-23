@@ -1,0 +1,22 @@
+.row{
+  margin: 0;
+}
+
+
+.top__box{
+  height: 100px;
+  background-color: #ec1c24;
+}
+
+.top__caption{
+  height: 225px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+@media (min-width: 768px){
+  .top__caption{
+    height: 100px;
+  }
+}
